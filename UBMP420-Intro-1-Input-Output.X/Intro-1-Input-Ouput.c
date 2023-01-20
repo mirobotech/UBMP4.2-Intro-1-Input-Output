@@ -1,6 +1,6 @@
 /*==============================================================================
- Project: Intro-1-Input-Output
- Date:    April 2, 2022
+ Project: Intro-1-Input-Output          Activity: mirobo.tech/ubmp4-intro-1
+ Date:    January 20, 2023
  
  This example UBMP4.2 input and output program demonstrates pushbutton input,
  LED (bit) output, port latch (byte) output, time delay functions, and simple
