@@ -255,8 +255,8 @@ int main(void)
  * 8. As you can imagine, an industrial machine that is able to turn on even
  *    while its 'Stop' button is pressed represents a significant safety hazard.
  *    Using a logical conditional operator, modify the start-stop program from
- *    activity 5 to make it safer. SW3 should only turn on LED D3 if switch SW4
- *    is released while switch SW3 is pressed.
+ *    programming activity 6 to make it safer. SW3 should only turn on LED D3
+ *    if switch SW4 is not pressed switch SW3 is pressed.
  * 
  * 9. LED D1 is normally used to indicate that a program is running, but it can
  *    be controlled by your program as well. If you examine the UBMP4 schematic,
