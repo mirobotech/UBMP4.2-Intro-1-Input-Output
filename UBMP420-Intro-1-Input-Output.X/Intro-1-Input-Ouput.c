@@ -1,13 +1,13 @@
 /*==============================================================================
  Project: Intro-1-Input-Output          Activity: mirobo.tech/ubmp4-intro-1
- Date:    January 20, 2023
+ Date:    February 13, 2023
  
- This example UBMP4.2 input and output program demonstrates pushbutton input,
- LED (bit) output, port latch (byte) output, time delay functions, and simple
- 'if' condition structures.
+ This introductory input and output programming activity for the mirobo.tech
+ UBMP4 demonstrates pushbutton input, LED (bit) output, port (byte) output,
+ MPLAB's built-in time delay functions, and simple 'if' condition structures.
  
- Additional program analysis and programming activities demonstrate byte output,
- logical condition operators AND and OR, creating sounds using delay functions,
+ Additional program analysis and programming activities demonstrate the logical
+ AND and OR conditional operators, using delay functions to create sound output,
  and software-based simulated start-stop button functionality.
 ==============================================================================*/
 
