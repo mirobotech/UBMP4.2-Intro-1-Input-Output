@@ -25,11 +25,11 @@
 
 int main(void)
 {
-    // Configure oscillator and I/O ports. These functions run once at start-up.
+    // These configuration functions run once during program start-up.
     OSC_config();               // Configure internal oscillator for 48 MHz
     UBMP4_config();             // Configure I/O for on-board UBMP4 devices
     
-    // Code in this while loop runs repeatedly.
+    // The code in this while loop repeats forever.
     while(1)
 	{
         // If SW2 is pressed, make a flashy light pattern
@@ -53,9 +53,9 @@ int main(void)
             __delay_ms(100);
         }
 
-        // Add code for your Program Analysis and Programming Activities here:
+        // Add your Program Analysis and Programming Activities code here:
 
-        // Activate bootloader if SW1 is pressed.
+        // Reset the microcontroller and start the bootloader if SW1 is pressed.
         if(SW1 == 0)
         {
             RESET();
@@ -265,7 +265,7 @@ int main(void)
         }
 
  *    One difference between this code and the code in activity 2, above, is the
- *    state of the BEEPER pin when SW5 is released. Will you know the state the
+ *    state of the BEEPER pin when SW5 is released. Will you know what state the
  *    BEEPER output will be in after this code runs? While one advantage of this
  *    method is less program code, can you think of one or more disadvantages of
  *    not knowing the output state of a pin when using code like this?
